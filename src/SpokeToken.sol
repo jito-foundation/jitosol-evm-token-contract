@@ -21,10 +21,12 @@ contract SpokeToken is BaseToken, ERC20Burnable, Ownable {
         _;
     }
 
-    constructor(string memory _name, string memory _symbol, address _minter, address _owner)
-        BaseToken(_name, _symbol)
-        Ownable(_owner)
-    {
+    constructor(
+        string memory _name,
+        string memory _symbol,
+        address _minter,
+        address _owner
+    ) BaseToken(_name, _symbol) Ownable(_owner) {
         minter = _minter;
     }
 
@@ -40,7 +42,15 @@ contract SpokeToken is BaseToken, ERC20Burnable, Ownable {
         emit NewMinter(newMinter);
     }
 
-    function _update(address _from, address _to, uint256 _value) internal override(ERC20, BaseToken) {
+    function _update(
+        address _from,
+        address _to,
+        uint256 _value
+    ) internal override(ERC20, BaseToken) {
         return BaseToken._update(_from, _to, _value);
+    }
+
+    function decimals() public pure override(ERC20) returns (uint8) {
+        return 9;
     }
 }
