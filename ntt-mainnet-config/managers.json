@@ -1,0 +1,12 @@
+[
+  {
+    "token": "0x83e1d2310ade410676b1733d16e89f91822fd5c3",
+    "mode": 1,
+    "chainId": 23,
+    "rateLimitDuration": 0,
+    "skipRateLimit": true,
+    "threshold": 1,
+    "outboundLimit": 0,
+    "inboundLimit": []
+  }
+]

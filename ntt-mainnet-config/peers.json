@@ -1,0 +1,18 @@
+[
+  {
+    "chainId": 23,
+    "decimals": 9,
+    "isWormholeRelayingEnabled": true,
+    "isWormholeEvmChain": true,
+    "isSpecialRelayingEnabled": false
+  },
+  {
+    "chainId": 1,
+    "decimals": 9,
+    "managerAddress": "nTTJS9XtWhfHkPiLmddSmdMrCJAtJrSCjPwuns3fvu5",
+    "transceiverAddress": "G1GPjXkW38dcVr5CECqNv7eLYkSRmV7FEEVBcKxWG14k",
+    "isWormholeRelayingEnabled": false,
+    "isWormholeEvmChain": false,
+    "isSpecialRelayingEnabled": true
+  }
+]

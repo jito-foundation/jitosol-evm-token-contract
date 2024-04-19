@@ -1,0 +1,11 @@
+{
+  "guardianSetIndex": 3,
+  "chains": [
+    {
+      "description": "Arbitrum",
+      "evmNetworkId": 42161,
+      "chainId": 23,
+      "rpc": "https://arbitrum.publicnode.com"
+    }
+  ]
+}
